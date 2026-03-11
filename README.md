@@ -17,7 +17,7 @@ ITIID 4 || 11 || IBARRA NUÑEZ JUAN CARLOS
 * **Ejemplo:** si el usuario ingresa `4`, la función realiza la operación `2 * 3 * 4` y el programa muestra como resultado `24`.
 
 
-## Programa – Factorial Recursivo
+## Programa 20_B_FACTORIAL
 
 * **Que hace:** calcula el factorial de un número ingresado por el usuario desde la consola utilizando **recursividad**, donde la función se llama a sí misma hasta llegar al caso base.
 
@@ -35,7 +35,7 @@ ITIID 4 || 11 || IBARRA NUÑEZ JUAN CARLOS
 * **Ejemplo:** si el usuario ingresa `3` y `4`, la función realiza llamadas recursivas hasta convertir la operación en `7`, mostrando como resultado `La suma de 3 + 4 es 7`.
 
 
-## Programa – Implementación de Queue (Cola)
+## Programa 22_Implementación de Queue (Cola)
 
 * **Que hace:** implementa una **estructura de datos tipo cola (Queue)** donde los elementos se agregan al final y se eliminan del inicio siguiendo el principio **FIFO (First In, First Out)**. El usuario puede ingresar números para agregarlos, eliminarlos con el comando `dequeue`, ver la cola con `mostrar` o terminar el programa con `salir`.
 
@@ -44,7 +44,7 @@ ITIID 4 || 11 || IBARRA NUÑEZ JUAN CARLOS
 * **Ejemplo:** si el usuario ingresa `5`, `10` y `15`, la cola queda `[5, 10, 15]`. Si después escribe `dequeue`, se elimina `5` y la cola queda `[10, 15]`.
 
 
-  ## Programa – Implementación de Pila (Stack)
+  ## Programa 23_Implementación de Pila (Stack)
 
 * **Que hace:** implementa una **estructura de datos tipo pila (Stack)** que permite agregar y eliminar elementos siguiendo el principio **LIFO (Last In, First Out)**. El usuario puede agregar números, eliminarlos, ver el estado de la pila o salir del programa mediante un menú.
 
@@ -53,10 +53,19 @@ ITIID 4 || 11 || IBARRA NUÑEZ JUAN CARLOS
 * **Ejemplo:** si el usuario agrega `5`, `10` y `15`, la pila queda `[5, 10, 15]`. Si luego selecciona **Pop**, se elimina `15` y la pila queda `[5, 10]`.
 
 
-  ## Programa – Factorial con Validación
+  ## Programa 24_Factorial con Validación
 
 * **Que hace:** calcula el factorial de un número entero ingresado por el usuario utilizando **recursividad** y además valida que la entrada sea correcta y que el número no sea negativo.
 
 * **Estructura:** utiliza la librería `dart:io` para la entrada y salida de datos. Define una función `fac()` que calcula el factorial de forma **recursiva**, donde el **caso base** es cuando el número es `0` o `1`. En `main` se solicita el número al usuario, se utiliza un **bloque `try-catch`** para manejar errores de entrada y se valida que el número no sea negativo antes de calcular el resultado.
 
 * **Ejemplo:** si el usuario ingresa `4`, la función realiza las llamadas recursivas `4 × 3 × 2 × 1` y el programa muestra como resultado `Factorial de 4 = 24`.
+
+
+  ## 25_Programa Sistema de Atención de Tickets
+
+* **Qué hace:** permite registrar, administrar y dar seguimiento a tickets de atención al cliente desde la consola. El sistema permite agregar tickets, atenderlos, buscarlos, ver el historial completo y consultar el estado actual del sistema.
+
+* **Estructura:** el programa está desarrollado en **Dart** y utiliza la librería `dart:io` para la entrada y salida de datos en la consola. Implementa estructuras de datos como **Queue (cola)** para gestionar los tickets pendientes y **Stack (pila)** para almacenar el historial de tickets. También utiliza clases, enumeraciones (`enum`) y funciones para organizar la lógica del sistema.
+
+* **Ejemplo:** un usuario puede registrar un ticket ingresando el nombre del cliente, la descripción del problema y el responsable. El ticket se agrega a la cola de espera. Cuando se selecciona la opción **Atender siguiente ticket**, el sistema toma el primer ticket de la cola, cambia su estado a **En atención** y lo actualiza en el historial.
