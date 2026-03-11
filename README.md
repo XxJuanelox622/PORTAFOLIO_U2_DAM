@@ -8,7 +8,7 @@ ITIID 4 || 11 || IBARRA NUÑEZ JUAN CARLOS
 * **Ejemplo:** si el usuario ingresa `5`, el programa realiza la operación ` 2 * 3 * 4 * 5` y muestra como resultado `120`.
   
 
-  ## Programa 20_B_FACTORIAL
+## Programa 20_B_FACTORIAL
 
 * **Que hace:** calcula el factorial de un número ingresado por el usuario desde la consola utilizando una función que retorna el resultado del cálculo.
 
@@ -44,7 +44,7 @@ ITIID 4 || 11 || IBARRA NUÑEZ JUAN CARLOS
 * **Ejemplo:** si el usuario ingresa `5`, `10` y `15`, la cola queda `[5, 10, 15]`. Si después escribe `dequeue`, se elimina `5` y la cola queda `[10, 15]`.
 
 
-  ## Programa 23_Implementación de Pila (Stack)
+## Programa 23_Implementación de Pila (Stack)
 
 * **Que hace:** implementa una **estructura de datos tipo pila (Stack)** que permite agregar y eliminar elementos siguiendo el principio **LIFO (Last In, First Out)**. El usuario puede agregar números, eliminarlos, ver el estado de la pila o salir del programa mediante un menú.
 
@@ -53,7 +53,7 @@ ITIID 4 || 11 || IBARRA NUÑEZ JUAN CARLOS
 * **Ejemplo:** si el usuario agrega `5`, `10` y `15`, la pila queda `[5, 10, 15]`. Si luego selecciona **Pop**, se elimina `15` y la pila queda `[5, 10]`.
 
 
-  ## Programa 24_Factorial con Validación
+## Programa 24_Factorial con Validación
 
 * **Que hace:** calcula el factorial de un número entero ingresado por el usuario utilizando **recursividad** y además valida que la entrada sea correcta y que el número no sea negativo.
 
@@ -62,7 +62,7 @@ ITIID 4 || 11 || IBARRA NUÑEZ JUAN CARLOS
 * **Ejemplo:** si el usuario ingresa `4`, la función realiza las llamadas recursivas `4 × 3 × 2 × 1` y el programa muestra como resultado `Factorial de 4 = 24`.
 
 
-  ## 25_Programa Sistema de Atención de Tickets
+## 25_Programa Sistema de Atención de Tickets
 
 * **Qué hace:** permite registrar, administrar y dar seguimiento a tickets de atención al cliente desde la consola. El sistema permite agregar tickets, atenderlos, buscarlos, ver el historial completo y consultar el estado actual del sistema.
 
